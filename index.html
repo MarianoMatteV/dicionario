@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dicionário</title>
+</head>
+<body>
+    <header>
+        <h1>Dicionário</h1>
+        <h1>Mariano</h1>
+    </header>
+ 
+    <main>
+        <h1 class="title1">Palavras</h1>
+
+        <section class="palavras">
+            <button onclick="abrir_palavra()" id="p1" class="palavra all">Business</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Business</h3>
+                        <audio id="audio1">
+                            <source src="../audios/business.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio1()">Play</button>
+                        <button onmouseover="pauseAudio1()">Pause</button></div>
+                    </div>
+                    <hr>
+                    <p>Business: Noun</p>
+                    <p>- A person's regular occupation, profession, or trade.</p>
+                    <p>- The practice of making one's living by engaging in commerce.</p>
+                    <hr>
+                    <p>Negócios: Substantivo</p>
+                    <p>A ocupação, profissão ou comércio regular de uma pessoa.</p>
+                    <p>A prática de ganhar a vida por meio do comércio.</p>
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">Now I must manage my business.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p2" class="palavra all">Entertainment</button> -->
+            <button onclick="abrir_palavra()" id="p2" class="palavra all">Entertainment</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Business</h3>
+                        <audio id="audio2">
+                            <source src="../audios/entertainment.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio2()">Play</button>
+                        <button onmouseover="pauseAudio2()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Entertainment: Noun</p>
+                    <p>- The action of providing or being provided with amusement or enjoyment.</p>
+                    <hr>
+                    <p>Entretenimento: Substantivo</p>
+                    <p>A ação de proporcionar ou ser proporcionado divertimento ou prazer.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">This party needed more entertainment.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p3" class="palavra all">February</button> -->
+            <button onclick="abrir_palavra()" id="p3" class="palavra all">February</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>February</h3>
+                        <audio id="audio3">
+                            <source src="../audios/february.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio3()">Play</button>
+                        <button onmouseover="pauseAudio3()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>February: Noun</p>
+                    <p>- The second month of the year, in the northern hemisphere usually considered the last month of winter.</p>
+                    <hr>
+                    <p>Fevereiro: Substantivo</p>
+                    <p>O segundo mês do ano, no hemisfério norte, geralmente considerado o último mês do inverno.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">Classes will start in February.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p4" class="palavra all">Frightened</button> -->
+            <button onclick="abrir_palavra()" id="p4" class="palavra all">Frightened</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Frightened</h3>
+                        <audio id="audio4">
+                            <source src="../audios/frightened.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio4()">Play</button>
+                        <button onmouseover="pauseAudio4()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Frightened: Adjective</p>
+                    <p>- Afraid or anxious.</p>
+                    <hr>
+                    <p>Assustado: Adjetivo</p>
+                    <p>Com medo ou ansioso.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">People were frightened to see Mr Hyde.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p5" class="palavra all">Hierarchy</button> -->
+            <button onclick="abrir_palavra()" id="p5" class="palavra all">Hierarchy</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Hierarchy</h3>
+                        <audio id="audio5">
+                            <source src="../audios/hierarchy.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio5()">Play</button>
+                        <button onmouseover="pauseAudio5()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Hierarchy: Noun</p>
+                    <p>- A system or organization in which people or groups are ranked one above the other according to status or authority.</p>
+                    <hr>
+                    <p>Hierarquia: Substantivo</p>
+                    <p>Um sistema ou organização em que pessoas ou grupos são classificados uns acima dos outros de acordo com o status ou a autoridade.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">The richest are always at the top of the hierarchy.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p6" class="palavra all">Perhaps</button> -->
+            <button onclick="abrir_palavra()" id="p6" class="palavra all">Perhaps</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Perhaps</h3>
+                        <audio id="audio6">
+                            <source src="../audios/perhaps.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio6()">Play</button>
+                        <button onmouseover="pauseAudio6()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Perhaps: Adverb</p>
+                    <p>- Used to express uncertainty or possibility.</p>
+                    <hr>
+                    <p>Possivelmente: Advérbio</p>
+                    <p>Usado para expressar incerteza ou possibilidade.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">Perhaps he's walking.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p7" class="palavra all">Rich</button> -->
+            <button onclick="abrir_palavra()" id="p7" class="palavra all">Rich</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Rich</h3>
+                        <audio id="audio7">
+                            <source src="../audios/rich.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio7()">Play</button>
+                        <button onmouseover="pauseAudio7()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Rich: Adjective</p>
+                    <p>- Having a great deal of money or assets.</p>
+                    <hr>
+                    <p>Rico: Adjetivo</p>
+                    <p>Ter uma grande quantidade de dinheiro ou ativos.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">This guy is very rich. </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p8" class="palavra all">Tournament</button> -->
+            <button onclick="abrir_palavra()" id="p8" class="palavra all">Tournament</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Tournament</h3>
+                        <audio id="audio8">
+                            <source src="../audios/tournament.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio8()">Play</button>
+                        <button onmouseover="pauseAudio8()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Tournament: Noun</p>
+                    <p>- (In a sport or game) a series of contests between a number of competitors, who compete for an overall prize.</p>
+                    <hr>
+                    <p>Torneio: Substantivo</p>
+                    <p>(Em um esporte ou jogo) uma série de disputas entre vários competidores, que competem por um prêmio geral.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">The São Luís school won the futsal tournament.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p9" class="palavra all">Vanished</button> -->
+            <button onclick="abrir_palavra()" id="p9" class="palavra all">Vanished</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Vanished</h3>
+                        <audio id="audio9">
+                            <source src="../audios/vanished.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio9()">Play</button>
+                        <button onmouseover="pauseAudio9()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Vanished: Verb</p>
+                    <p>Past tense: vanished; past participle: vanished</p>
+                    <p>Disappear suddenly and completely.</p>
+                    <hr>
+                    <p>Desaparecido: Verbo</p>
+                    <p>Desaparecer repentinamente e completamente.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">He vanished during the shark attack.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <button id="p10" class="palavra all">Wednesday</button> -->
+            <button onclick="abrir_palavra()" id="p10" class="palavra all">Wednesday</button>
+            <div class="modal">
+                <p class="exit"><button onclick="fechar()"><img src="../imagens/quit.webp" alt=""></button></p>
+                <div class="palavra">
+                    <div class="linha1">
+                        <h3>Wednesday</h3>
+                        <audio id="audio10">
+                            <source src="../audios/wednesday.mp3" type="audio/mpeg">
+                        </audio>
+                        <div><button onmouseover="playAudio10()">Play</button>
+                        <button onmouseover="pauseAudio10()">Pause</button></div>
+                    </div>
+                    <hr>
+
+                    <p>Wednesday: Noun</p>
+                    <p>The fourth day of the week, following Tuesday.</p>
+                    <hr>
+                    <p>Quarta-feira: Substantivo</p>
+                    <p>O quarto dia da semana, depois da terça-feira.</p>
+                
+                    <hr>
+                        <h3 class="titulo-frase">Frase</h3>
+                        <p class="frase">Wednesday, we have a lot of tests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+
+        <!-- <div class="modal">
+            <section class="janela">
+                <article class="palavra">
+                    <header class="janela_palavra_header">
+                        <p id="janela_palavra_titulo_pt"></p>
+                        <span id="janela_palavra_audio_pt" class="material-symbols-outlined">volume_up</span>
+                    </header>
+                    <hr>
+                    <p class="idioma">Português</p>
+                </article>
+                <article class="janela_palavra">
+                    <header class="janela_palavra_header">
+                        <p id="janela_palavra_titulo_en"></p>
+                        <span id="janela_palavra_audio_en" class="material-symbols-outlined">volume_up</span>
+                    </header>
+                    <hr>
+                    <p class="idioma">Inglês</p>
+                </article>
+            </section>
+        </div> -->
+        <section class="conto">
+            <button class="open_text" onclick="abrir_texto()">Conto</button>
+
+            <div id="container2">
+                <div><h3 class="titulo-texto">O Palhaço de Jacksonville</h3></div>
+                <div><p class="texto-conto">
+                    <div class="espaço-texto inicio-p">  Após o acontecimento com os jovens na cidade de Jacksonville a cidade ficou muito amedrontada e vários policiais foram contratados para cuidarem da cidade, recebiam o salário normalmente, além de ficarem hospedados em casas para os policiais não precisarem sair de uma cidade para outra. A casa abandonada em que o palhaço vivia foi fechada pela polícia, e as buscas pelo jovem <b>desaparecido</b>, chamado Alex, ainda continuam.</div>
+
+                    <div class="espaço-texto inicio-p">  Na floresta de Jacksonville existe uma área proibida, e é recomendado que nenhuma pessoa ultrapasse o limite da área segura. Dentro da floresta proibida é possível ouvir algumas risadas assustadoras, nisso mostra como era o palhaço que cometeu os assassinatos na cidade de Jacksonville, ele era alto, magro, tinha uma aparência demoníaca, possuía garras afiadas e tinha um sorriso muito perturbador, com dentes bem afiados. Ele entra em um bunker muito escondido.</div>
+                    
+                    <div class="espaço-texto">- Olá, jovem Alex, não acha esse lugar divertido? - Pergunta o palhaço enquanto ria.</div>
+                    
+                    <div class="espaço-texto">- Por que tu tá fazendo isso? O que fizemos pra ti? - Pergunta Alex cheio de feridas e faminto.</div>
+                    
+                    <div class="espaço-texto">- É simples, eu odeio com todas minhas forças os humanos, vocês humanos são seres malignos, egoístas e nojentos. Então meu objetivo é fazer vocês sofrerem. - Grita o palhaço em um tom de raiva.</div>
+                    
+                    <div class="espaço-texto">- Mas nem todos humanos são assim. - Retruca Alex.</div>
+                    
+                    <div class="espaço-texto">- Você quer morrer? Aqui você pode gritar o quanto quiser, ninguém escutará você. - Grita o palhaço ameaçando Alex.</div>
+                    
+                    <div class="espaço-texto">- Por favor não faça nada comigo, eu prometo ficar quieto. - Implora Alex <b>assustado</b>.</div>
+                    
+                    <div class="espaço-texto">O palhaço sai do bunker com raiva, em busca de achar suas próximas vítimas.</div>
+                    
+                    <div class="espaço-texto inicio-p">  Um homem grande e forte aparece muito frustrado, conversando com um policial sobre seu filho ter desaparecido. Era um homem de <b>negócios</b> muito importante e <b>rico</b>, estando no mais alto nível da <b>hierarquia</b> da sociedade, este homem se chamava Henry e era pai de Alex.</div>
+                    
+                    <div class="espaço-texto">- Vocês são uns incompetentes, vocês só deveriam achar meu filho! Nem isso vocês conseguem fazer! Ele já está desaparecido há mais de dois meses - Reclama Henry, já frustrado com o policial.</div>
+                    
+                    <div class="espaço-texto">- Acalme-se senhor, a maior parte da equipe de busca já está em busca de seu filho. - Responde o policial.</div>
+                    
+                    <div class="espaço-texto">- Vocês precisam encontrá-lo, ele é tudo para mim! - Grita Henry enquanto começa a chorar por ter perdido seu filho.</div>
+                    
+                    <div class="espaço-texto inicio-p">  Era noite, o palhaço estava em um parque de diversões abandonado. Antes o parque era um lugar mágico, cheio de vida e alegre, porém, agora virou um lugar assustador, silencioso e perigoso, já que os brinquedos estavam enferrujados, podres e quase caindo.</div>
+                    
+                    <div class="espaço-texto">- Este local será perfeito para meus planos, será um show de dor e <b>entretenimento</b>! - Diz o palhaço com um tom de voz perverso.</div>
+                    
+                    <div class="espaço-texto">O palhaço escuta um grupo de jovens e se anima, escondendo-se para pegar as novas peças para seu grande show. Eram 3 garotos jovens e duas garotas jovens, aparentavam ter 17 anos de idade e estavam gravando um vídeo com suas câmeras.</div>
+                    
+                    <div class="espaço-texto">- Eae galera, tudo beleza?! Aqui é o Jacke e hoje nós estamos gravando aqui no parque abandonado de Jacksonville como tínhamos prometido, caso a meta de likes fosse cumprida. - Começa a falar o jovem que parecia o líder do grupo.</div>
+                    
+                    <div class="espaço-texto">- Opa galera, aqui é o José e os outros são Ana, Raulzinho e a Júlia! E como o Jacke falou, nós vamos explorar esse parque muito assustador. Então já deixem seu like pra nós gravar mais vídeos como esse. - Complementa José.</div>
+                    
+                    <div class="espaço-texto inicio-p">  Os jovens começaram a mostrar o parque para a câmera, até que eles notam que aparece um palhaço na gravação. Os jovens começam a ficar assustados e começam a gritar “quem está aí? Se você não sair daqui nós vamos te encher de porrada!”. Então o palhaço aparece atrás dos jovens e começa a rir.</div>
+                    
+                    <div class="espaço-texto">- Olá jovens, vocês gostariam de participar do meu show? Ele vai acontecer em dia 15 de <b>fevereiro</b>, em uma <b>quarta-feira</b>. - Pergunta o palhaço com um tom de voz malicioso.</div>
+                    
+                    <div class="espaço-texto">- Quem é você? E por que iríamos contigo? - Pergunta Júlia.</div>
+                    
+                    <div class="espaço-texto">- Vocês podem escolher entre morrer e participar do meu grande show, o que vocês escolhem? - Questiona o palhaço.</div>
+                    
+                    <div class="espaço-texto">- Até parece, é só um palhaço aleatório que quer atenção - Retruca Raulzinho.</div> 
+                    
+                    <div class="espaço-texto">Assim que Raulzinho termina de falar o palhaço pega um facão e arranca a cabeça do jovem. Os jovens começam a gritar horrorizados, vendo que Raulzinho foi realmente morto.</div>
+                    
+                    <div class="espaço-texto">- Por favor não nos mate, nós vamos participar do teu show, mas não nos mate! - Implora Ana enquanto chora assustada com a morte de seu amigo.</div>
+                    
+                    <div class="espaço-texto">- O-o que que se-será seu show? - Pergunta Jacke trêmulo e muito assustado.</div>
+                    
+                    <div class="espaço-texto">- Isso ainda não posso revelar, quando o dia do show estiver mais próximo eu conto para vocês, mas relaxem, será algo muito divertido. - Fala o palhaço rindo.</div> 
+                    
+                    <div class="espaço-texto inicio-p">  O palhaço leva os jovens para o bunker na floresta proibida, lá encontram vários jovens e entre eles estava o colega desaparecido, Alex.</div>
+                    
+                    <div class="espaço-texto">- Alex é você? Nós pensamos que tu tinha morrido! - Fala José.</div> 
+                    
+                    <div class="espaço-texto">- Eae José, sou eu sim. Aquele palhaço maldito matou o Antônio e o Adolfo e me sequestrou, ainda machucou o Jorge, mas não sei se ele sobreviveu. - Responde Alex.</div> 
+                    
+                    <div class="espaço-texto">- Ele vai nos matar? - Pergunta Júlia ainda assustada.</div>
+                    
+                    <div class="espaço-texto">- <b>Possivelmente</b> não, mas ele quer fazer um show. E pelo que ouvi vai ser um <b>torneio</b>, e quem ganhar ele vai deixar viver.</div>
+                    
+                    <div class="espaço-texto">- Nós precisamos tentar escapar e buscar ajuda. - Fala Jacke ainda um pouco assustado e com raiva.</div>
+                    
+                    <div class="espaço-texto">Os jovens começam a fazer um plano para escaparem daquele lugar. O palhaço era rápido, forte e inteligente, então deveriam ser muito cuidadosos. O plano que os amigos elaboraram foi de gravar um áudio com a câmera que tinham, já que o palhaço não a tirou dos jovens, e deixam um vídeo com áudios que iriam atrair o palhaço para onde estavam presos. Quando o palhaço entrasse no bunker, os jovens iriam sair cautelosamente e buscariam a cidade mais próxima para achar ajuda. </div>
+
+                    <div class="espaço-texto inicio-p">  O plano entra em ação e é concluído com sucesso, mas ao saírem do bunker, os jovens notam que estavam em lugar que nunca visitaram, então perceberam que estavam na floresta proibida. Eles começam a fugir silenciosamente, mas durante a fuga encontram um ser estranho, era uma criatura grotesca, com garras afiadas, dentes longos e afiados, era bípede, possuía aproximadamente 3 metros de altura, também tinha traços de lobo e outros animais perigosos.</div>
+                    
+                    <div class="espaço-texto">- Então é por isso que o nome da floresta é floresta proibida? Pois existem criaturas como essa? - Questiona Alex assustado.</div>
+                    
+                    <div class="espaço-texto">Os jovens tentam contornar o monstro, porém ele consegue notar a presença dos jovens, e uma perseguição inicia. Os amigos começam a correr, e Ana tropeça, os amigos ainda tentam ajudar, porém a criatura a puxa e só se ouvem gritos de sofrimento.</div>
+                    
+                    <div class="espaço-texto">- Não. Eu não quero passar por isso novamente, vamos acelerar galera, ninguém mais pode morrer. - Diz Alex. </div>
+                    
+                    <div class="espaço-texto">- Também não queremos perder mais amigos. - Concordam os outros. </div>
+                    
+                    <div class="espaço-texto inicio-p">  Depois de uma longa perseguição os amigos conseguem despistar a criatura e depois de mais uma hora de caminhada chegam na cidade de Jacksonville. Lá encontram os policiais e contam o que aconteceu, Henry recebe uma ligação da delegacia e é notificado de que seu filho foi encontrado. Rapidamente ele sai de casa e vai para delegacia. O reencontro entre pai e filho foi emocionante, após esse momento feliz, Alex conta tudo o que aconteceu, e o que o palhaço planeja fazer. A polícia local separou todas as tropas para fazer uma busca no local. </div>
+                    
+                    <div class="espaço-texto inicio-p">  Os policiais chegam na floresta proibida e começam a buscar o bunker, lá encontram a mesma criatura que atacou os jovens, alguns policiais são mortos e outros feridos, mas conseguem eliminar a criatura. As tropas enfrentam diversas criaturas perigosas, mas com apoio aéreo conseguem eliminá-las com maior facilidade, diminuindo o número de mortos e feridos. Depois de uma longa busca encontram o bunker com várias crianças. Eles conseguem resgatar as crianças, porém não encontram o palhaço. </div>
+                    
+                    <div class="espaço-texto">- Crianças malditas, estragaram meu grande show de dor. Agora irei matá-las sem nenhuma piedade, da forma mais dolorosa possível. - Grita o palhaço irritado. </div>
+                    
+                    <div class="espaço-texto inicio-p">  Na cidade, a população estava mais calma com os desaparecimentos sendo resolvidos, mas ainda não pegaram o autor desses crimes, e ele estava solto querendo vingança. O palhaço encontra os jovens, ele estava prestes a atacar, mas é atacado e morto brutalmente por uma criatura maior e mais perigosa do que as outras, mas ela só ficava onde não havia a presença de luz, assim a única parte visível da criatura eram seus grandes olhos vermelhos. </p></div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <script src="dicionario.js"></script>
+</body>
+</html>
